@@ -971,8 +971,8 @@
         /* Estilos do Menu Flutuante */
         .floating-menu {
             position: fixed;
-            bottom: 30px;
-            right: 30px;
+            top: 20px; /* Distância do topo */
+            left: 20px; /* Distância da esquerda */
             z-index: 1000;
         }
         .menu-toggle {
@@ -998,8 +998,8 @@
         .menu-options {
             list-style: none;
             position: absolute;
-            bottom: 70px;
-            right: 0;
+            top: 70px; /* Ajustado para abrir abaixo do botão */
+            left: 0; /* Alinhado à esquerda */
             background: rgba(29, 41, 59, 0.95);
             border-radius: 10px;
             padding: 10px;
@@ -1042,7 +1042,7 @@
                 height: 50px;
             }
             .menu-options {
-                bottom: 60px;
+                top: 60px; /* Ajustado para telas menores */
             }
             .menu-options a {
                 font-size: 0.9em;
